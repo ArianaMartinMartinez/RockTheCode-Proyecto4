@@ -11,4 +11,35 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  --white: #FFFAFA;
+  --black: #1B1B1B;
+  --red: #CE4257;
+  --darkRed: #720026;
+  --darkerRed: #720026;
+  --orange: #FF7F51;
+  --lightOrange: #FF9B54;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
 }

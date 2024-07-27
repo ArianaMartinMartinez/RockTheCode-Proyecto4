@@ -78,7 +78,7 @@ export const data = {
             year: 2024,
         },
     ],
-    proyects: [
+    projects: [
         {
             name: 'PcComponentes',
             photo: '../../image/proyecto1.png',
