@@ -19,7 +19,7 @@ export const data = {
     skills: [
         {
             name: 'HTML5',
-            logo: 'https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo.png',
+            logo: 'https://cdn.iconscout.com/icon/free/png-256/free-html-5-1-1175208.png',
         },
         {
             name: 'CSS3',

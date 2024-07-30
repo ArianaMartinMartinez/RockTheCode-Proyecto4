@@ -1,0 +1,31 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    gap: 30px;
+}
+
+#skills > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#logo {
+    width: 150px;
+    margin: 5px;
+    transition: transform 1s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+article {
+    margin: 10px;
+}
