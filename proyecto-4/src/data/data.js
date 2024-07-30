@@ -2,22 +2,20 @@ export const data = {
     fullName: 'Ariana Martín Martínez',
     photo: '../../image/Ariana.jpg',
     job: 'Full-stack web developer',
-    aboutMe: `
-    Soy una desarrolladora web junior que busca formarse continuamente para poder conseguir su primera experiencia
-    laboral en el mundo de la informática. Me considero una persona resolutiva y responsable con ganas de trabajar
-    con pasión.
-
-    Nací, me crié y vivo en Málaga por lo que soy una apasionada de pasar el día en la playa, dando un paseo mientras
-    escucho el sonido de las olas del mar. En mi tiempo libre me gusta salir con mis amigos a hacer cualquier plan,
-    ver series o películas y leer lo que puedo; aunque mi gran pasión es el crochet.
-
-    Hace unos 8 años que mi madre me enseñó y desde entonces me ha encantado este hobby (aunque muchas veces sea considerado
-    para abuelas). Me encanta poder hacerme mi propia ropa y accesorios; además, desde que era pequeña me han encatado
-    las manualidades por lo que este es el hobby perfecto para mí.
-
-    En resumen, soy una persona a la que le encantan las manualidades y la tecnología, por lo que estoy ansiosa por 
-    seguir aprendiendo día a día.
+    aboutMe1: `
+        Soy una desarrolladora web junior que busca formarse continuamente para poder conseguir su primera experiencia
+        laboral en el mundo de la informática. Me considero una persona resolutiva y responsable con ganas de trabajar
+        con pasión.
     `,
+    aboutMe2: `
+        En mi tiempo libre me gusta salir con mis amigos a hacer cualquier plan, ver series o películas y leer; 
+        aunque mi gran pasión es el crochet. Me encanta poder hacerme mi propia ropa y accesorios; además, 
+        desde que era pequeña me han encantado las manualidades por lo que este es el hobby perfecto para mí.
+    `,
+    aboutMe3: `
+        En resumen, soy una persona a la que le encantan las manualidades y la tecnología, por lo que estoy ansiosa por 
+        seguir aprendiendo día a día.
+    `, 
     skills: [
         {
             name: 'HTML5',

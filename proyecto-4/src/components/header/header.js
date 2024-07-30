@@ -34,14 +34,21 @@ export const printHeader = () => {
 
     for(let link of linksHeader) {
         const li = document.createElement('li');
-        const a = document.createElement('a');
 
-        a.href = link.href;
-        li.textContent = link.name;
+        li.innerHTML = `
+        <a href=${link.href}>${link.name}</a>
+        `;
 
-        li.appendChild(a);
+        li.addEventListener('click', () => {
+            if(nav.classList.contains('active')) {
+                nav.classList.remove('active');
+                imgClose.style.display = 'none';
+            }
+        });
+
         ul.appendChild(li);
     }
+
 
     nav.appendChild(imgClose);
     nav.appendChild(ul);

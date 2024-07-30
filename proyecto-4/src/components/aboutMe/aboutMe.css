@@ -1,0 +1,25 @@
+#aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    gap: 100px;
+}
+
+#heroArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#imgAriana {
+    width: 250px;
+}
+
+#aboutMeTitle {
+    margin: 10px;
+}

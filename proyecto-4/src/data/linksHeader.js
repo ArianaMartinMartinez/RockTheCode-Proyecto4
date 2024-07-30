@@ -1,30 +1,30 @@
 export const linksHeader = [
     {
         name: 'Inicio',
-        href: '/home',
+        href: '#home',
     },
     {
         name: 'Sobre mí',
-        href: '/aboutme',
+        href: '#aboutMe',
     },
     {
         name: 'Habilidades',
-        href: '/skills',
+        href: '#skills',
     },
     {
         name: 'Educación',
-        href: '/education',
+        href: '#education',
     },
     {
         name: 'Experiencia',
-        href: '/experience'
+        href: '#experience'
     },
     {
         name: 'Proyectos',
-        href: '/projects'
+        href: '#projects'
     },
     {
         name: 'Contacto',
-        href: '/contact',
+        href: '#contact',
     },
 ];

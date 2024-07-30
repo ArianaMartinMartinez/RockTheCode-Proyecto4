@@ -24,17 +24,14 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+a:hover {
     color: var(--orange);
-}
-
-img {
-    width: 60px;
 }
 
 .imgOpen, .imgClose {
     display: none;
     cursor: pointer;
+    width: 60px;
 }
 
 /** RESPONSIVE **/
@@ -57,10 +54,13 @@ img {
         align-items: center;
         flex-direction: column;
         background-color: #ce4257e5;
+        background-color: var(--red);
+        position: absolute;
         z-index: 1;
         height: 100vh;
         gap: 90px;
         padding: 50px;
+        width: 100%;
     }
 
     .active > ul {
