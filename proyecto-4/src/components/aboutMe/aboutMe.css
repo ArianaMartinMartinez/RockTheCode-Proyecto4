@@ -23,3 +23,8 @@
 #aboutMeTitle {
     margin: 10px;
 }
+
+#descriptionArticle > p {
+    margin: 15px;
+    text-align: justify;
+}
