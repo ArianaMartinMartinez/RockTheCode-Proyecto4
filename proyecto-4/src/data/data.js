@@ -52,28 +52,26 @@ export const data = {
     ],
     education: [
         {
-            degree: 'Grado Superior en Desarrollo de Aplicaciones Web',
-            school: 'IES Politécnico Jesús Marín',
-            startYear: 2021,
-            finishYear: 2023,
-        },
-        {
             degree: 'Bootcamp Rock{TheCode} Desarrollo Web Full-stack',
             school: 'ThePower Education',
-            startYear: 2024,
-            finishYear: 2025,
+            year: 2025,
+        },
+        {
+            degree: 'Grado Superior en Desarrollo de Aplicaciones Web',
+            school: 'IES Politécnico Jesús Marín',
+            year: 2023,
         },
     ],
     experience: [
         {
-            job: 'Prácticas Desarrolladora web junior',
-            company: 'DEKRA Testing and Certification, S.A.U.',
-            year: 2023,
-        },
-        {
             job: 'Auxiliar Administrativa',
             company: 'OPPLUS',
             year: 2024,
+        },
+        {
+            job: 'Prácticas Desarrolladora web junior',
+            company: 'DEKRA Testing and Certification, S.A.U.',
+            year: 2023,
         },
     ],
     projects: [
