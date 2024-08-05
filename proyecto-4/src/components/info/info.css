@@ -1,0 +1,32 @@
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    gap: 25px;
+}
+
+#infoTitles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#info > article {
+    width: 100%;
+}
+
+#education, #experience {
+    cursor: pointer;
+}
+
+#changeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

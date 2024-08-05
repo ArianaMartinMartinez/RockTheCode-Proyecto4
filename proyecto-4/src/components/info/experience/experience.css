@@ -1,0 +1,9 @@
+#extra {
+    display: flex;
+    justify-content: space-around;
+}
+
+#exp {
+    margin-bottom: 35px;
+    width: 70%;
+}
