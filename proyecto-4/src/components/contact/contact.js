@@ -12,7 +12,7 @@ export const printContact = () => {
     h2.id = 'contactTitle';
 
     const div = document.createElement('div');
-    div.id = 'articlesDiv';
+    div.id = 'articlesContactDiv';
 
     for(const c of data.contact) {
         const article = document.createElement('article');
