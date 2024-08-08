@@ -78,25 +78,21 @@ export const data = {
         {
             name: 'PcComponentes',
             photo: '../../image/proyecto1.png',
-            description: 'Proyecto realizado en HTML y CSS básico para recrear la web de PcComponentes',
             url: 'https://github.com/ArianaMartinMartinez/RockTheCode-Proyecto1',
         },
         {
             name: "Ariana's Jewelry",
             photo: '../../image/proyecto2.png',
-            description: 'Proyecto que simula una tienda de joyas en la cual podemos filtrar tanto por marca como por precio',
             url: 'https://github.com/ArianaMartinMartinez/RockTheCode-Proyecto2',
         },
         {
             name: "Ariana's Gallery",
             photo: '../../image/proyecto3.png',
-            description: 'Proyecto realizado con la ayuda de la API Unsplash que muestra fotografías recreando la web de Pinterest',
             url: 'https://github.com/ArianaMartinMartinez/RockTheCode-Proyecto3',
         },
         {
             name: 'Portfolio',
             photo: '',
-            description: 'Proyecto de mi portfolio para presentarme y mostrar mis conocimientos y experiencias',
             url: 'https://github.com/ArianaMartinMartinez/RockTheCode-Proyecto4',
         },
     ],

@@ -1,0 +1,26 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    gap: 30px;
+}
+
+#imgProject {
+    width: 300px;
+    transition: transform 1s ease;
+}
+
+#imgProject:hover {
+    transform: scale(1.1);
+}
+
+#articlesDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
