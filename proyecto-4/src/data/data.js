@@ -100,14 +100,17 @@ export const data = {
         {
             name: 'Mail',
             url: 'arianamartinmartinez@gmail.com',
+            icon: '<i class="fa-regular fa-envelope"></i>',
         },
         {
             name: 'GitHub',
             url: 'https://github.com/ArianaMartinMartinez',
+            icon: '<i class="fa-brands fa-github"></i>',
         },
         {
             name: 'Linkedin',
             url: 'https://www.linkedin.com/in/ariana-martin-martinez',
+            icon: '<i class="fa-brands fa-linkedin"></i>',
         },
     ],
 };
