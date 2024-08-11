@@ -1,11 +1,6 @@
 :root {
-    --white: #FFFAFA;
-    --black: #1B1B1B;
     --red: #CE4257;
-    --darkRed: #720026;
-    --darkerRed: #720026;
     --orange: #FF7F51;
-    --lightOrange: #FF9B54;
 }
 
 header, nav, ul {

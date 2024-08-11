@@ -1,9 +1,5 @@
 export const linksHeader = [
     {
-        name: 'Inicio',
-        href: '#home',
-    },
-    {
         name: 'Sobre mí',
         href: '#aboutMe',
     },

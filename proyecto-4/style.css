@@ -1,5 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,7 +16,6 @@
   --black: #1B1B1B;
   --red: #CE4257;
   --darkRed: #720026;
-  --darkerRed: #720026;
   --orange: #FF7F51;
   --lightOrange: #FF9B54;
 }
@@ -26,7 +24,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 body {
@@ -44,6 +42,31 @@ a {
   color: var(--black);
 }
 
+/** SCROLLBAR **/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--red); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darkRed); 
+}
+
+
+
 main {
   display: flex;
   flex-direction: column;
@@ -51,4 +74,16 @@ main {
   align-items: center;
   padding: 25px;
   gap: 80px;
+}
+
+h2 {
+  color: var(--red);
+}
+
+#education:hover, #experience:hover {
+  color: var(--orange);
+}
+
+svg {
+  color: var(--red);
 }

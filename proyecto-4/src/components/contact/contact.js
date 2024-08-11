@@ -20,7 +20,9 @@ export const printContact = () => {
 
         article.innerHTML = `
             ${c.icon}
-            <p>${c.url}</p>
+            <a href="${c.url}" target="_blank">
+                <p>${c.url}</p>
+            </a>
         `;
 
         div.appendChild(article);

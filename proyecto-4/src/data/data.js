@@ -92,7 +92,7 @@ export const data = {
         },
         {
             name: 'Portfolio',
-            photo: '',
+            photo: '../../image/proyecto4.png',
             url: 'https://github.com/ArianaMartinMartinez/RockTheCode-Proyecto4',
         },
     ],
