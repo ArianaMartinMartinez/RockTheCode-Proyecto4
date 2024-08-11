@@ -12,18 +12,18 @@ DISEÑO PROPUESTO: https://www.figma.com/design/RXN01hA44DFTYaJIB89wYV/PROYECTO4
 
 ## Requisitos
 
-[] Requisitos mínimos del proyecto 1 en cuanto al HTML y CSS
+[X] Requisitos mínimos del proyecto 1 en cuanto al HTML y CSS
 
-[] Web FULL RESPONSIVE
+[X] Web FULL RESPONSIVE
 
-[] Código limpio y buena arquitectura de componentes con VITE
+[X] Código limpio y buena arquitectura de componentes con VITE
 
-[] Nada de código escrito directamente en el HTML
+[X] Nada de código escrito directamente en el HTML
 
-[] Existen componentes reutilizables para los elementos que se repiten en nuestra página
+[X] Existen componentes reutilizables para los elementos que se repiten en nuestra página
 
-[] El código de ningún componente supera las 100 líneas de código javascript
+[X] El código de ningún componente supera las 100 líneas de código javascript
 
-[] Cada componente tiene su respectivo CSS
+[X] Cada componente tiene su respectivo CSS
 
-[] Mínimo tendremos un evento que nos permita cambiar el contenido que se visualiza, alternando entre experiencia y estudios
+[X] Mínimo tendremos un evento que nos permita cambiar el contenido que se visualiza, alternando entre experiencia y estudios
